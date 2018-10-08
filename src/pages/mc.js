@@ -1,4 +1,8 @@
 import React from 'react'
+import { Link } from 'gatsby'
+import Helmet from 'react-helmet'
+import Layout from '../components/layout'
+import Banner from '../components/Banner'
 import addToMailchimp from 'gatsby-plugin-mailchimp';
 
 
