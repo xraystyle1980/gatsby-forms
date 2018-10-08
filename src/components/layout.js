@@ -45,6 +45,7 @@ class Layout extends React.Component {
                     <Header onToggleMenu={this.handleToggleMenu} />
                     {children}
                     <Contact />
+                    <Mc />
                     <Footer />
                 </div>
                 <Menu onToggleMenu={this.handleToggleMenu} />
