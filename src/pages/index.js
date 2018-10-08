@@ -90,4 +90,4 @@ class HomeIndex extends React.Component {
     }
 }
 
-export default HomeIndex
+export default HomeIndex;
