@@ -42,7 +42,8 @@ export default class IndexPage extends React.Component {
                 <h3 className="align-center">Our developer sandbox is open. Come play.</h3>
                 <div>
                   <form onSubmit={this._handleSubmit} className="form__signup--inline">
-                    <input type="email" onChange={this._handleChange} placeholder="email" name="email" />
+                    <span className="input-icon"><span className="fa fa-envelope"></span></span>
+                    <input type="email" onChange={this._handleChange} placeholder="email" name="email" className="input-with-icon" />
                     <input type="submit" value="Sign Up" />
                   </form>
                 </div>

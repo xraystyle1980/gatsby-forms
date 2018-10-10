@@ -241,16 +241,34 @@
 }
 
 .form__signup--inline {
-	@media only screen and (max-width: 640px) {
+	@media only screen and (max-width: 800px) {
 		input {
 		  width: 100vw;
 		  margin:1em 0;
 		}
 	}
-	@media only screen and (min-width: 641px) {
+	@media only screen and (min-width: 801px) {
 		input {
 		  width: 33vw;
 		  margin:0 1em;
 		}
 	}
+}
+
+.form__signup--email {
+	display: flex;
+	flex-direction: row;
+}
+
+.input-icon {
+  color: _palette(fg-dark);
+	align-content: flex-start;
+}
+
+.input-with-icon {
+
+}
+
+.input-icon, .input-with-icon {
+  padding: 10px;
 }
