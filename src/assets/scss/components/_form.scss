@@ -81,8 +81,8 @@
 		@include vendor('appearance', 'none');
 		background: _palette(border-bg);
 		border: none;
-		border-radius: 0;
-		color: inherit;
+		border-radius: 44px;
+		color: _palette(fg-dark);
 		display: block;
 		outline: 0;
 		padding: 0 1em;
@@ -227,3 +227,30 @@
 		color: _palette(fg-light) !important;
 		opacity: 1.0;
 	}
+
+
+///
+/// trice.design modified
+///
+
+/* Form */
+.form__signup--inline {
+	display: flex;
+	flex-flow: row wrap;
+  justify-content: center;
+}
+
+.form__signup--inline {
+	@media only screen and (max-width: 640px) {
+		input {
+		  width: 100vw;
+		  margin:1em 0;
+		}
+	}
+	@media only screen and (min-width: 641px) {
+		input {
+		  width: 33vw;
+		  margin:0 1em;
+		}
+	}
+}

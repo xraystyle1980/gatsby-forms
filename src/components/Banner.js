@@ -1,4 +1,5 @@
 import React from 'react'
+import Mc from './Mc'
 
 const Banner = (props) => (
     <section id="banner" className="major">
@@ -7,11 +8,9 @@ const Banner = (props) => (
                 <h1>Blockchain simplified.</h1>
             </header>
             <div className="content">
-                <p>Get on the blockchain at minimum cost. Forget about the public vs private argument, use our hybrid platform. No transaction fees, no cryptocurrency storage, no smart contract development. Proof of existence in one line of code.</p>
-                <ul className="actions">
-                    <li><a href="#one" className="button next scrolly">Get Started</a></li>
-                </ul>
+                <p className="content__body">Get on the blockchain at minimum cost. Forget about the public vs private argument, use our hybrid platform. No transaction fees, no cryptocurrency storage, no smart contract development. Proof of existence in one line of code.</p>
             </div>
+            <Mc />
         </div>
     </section>
 )
