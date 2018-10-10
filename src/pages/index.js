@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
+import Mc from '../components/Mc'
 
 import pic01 from '../assets/images/pic01.jpg'
 import pic02 from '../assets/images/pic02.jpg'
@@ -15,6 +16,8 @@ class HomeIndex extends React.Component {
     render() {
 
         return (
+
+
             <Layout>
                 <Helmet
                     title="Gatsby Starter - Forty"
@@ -28,6 +31,7 @@ class HomeIndex extends React.Component {
                 <Banner />
 
                 <div id="main">
+                  <Mc />
                     <section id="one" className="tiles">
                         <article style={{backgroundImage: `url(${pic01})`}}>
                             <header className="major">
