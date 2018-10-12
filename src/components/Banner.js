@@ -11,7 +11,9 @@ const Banner = (props) => (
                 <p className="content__body">Get on the blockchain at minimum cost. Forget about the public vs private argument, use our hybrid platform. No transaction fees, no cryptocurrency storage, no smart contract development. Proof of existence in one line of code.</p>
             </div>
             <Mc />
+                <p className="content__body">Get on the blockchain at minimum cost. Forget about the public vs private argument, use our hybrid platform. No transaction fees, no cryptocurrency storage, no smart contract development. Proof of existence in one line of code.Get on the blockchain at minimum cost. Forget about the public vs private argument, use our hybrid platform. No transaction fees, no cryptocurrency storage, no smart contract development. Proof of existence in one line of code.Get on the blockchain at minimum cost. Forget about the public vs private argument, use our hybrid platform. No transaction fees, no cryptocurrency storage, no smart contract development. Proof of existence in one line of code.Get on the blockchain at minimum cost. Forget about the public vs private argument, use our hybrid platform. No transaction fees, no cryptocurrency storage, no smart contract development. Proof of existence in one line of code.</p>
         </div>
+
     </section>
 )
 

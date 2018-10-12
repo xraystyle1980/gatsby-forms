@@ -13,14 +13,15 @@
 	.button {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', (
+			'background #{_duration(transition)} ease-in-out',
 			'background-color #{_duration(transition)} ease-in-out',
 			'box-shadow #{_duration(transition)} ease-in-out',
 			'color #{_duration(transition)} ease-in-out'
 		));
-		background-color: _palette(button-bright);
+		background: linear-gradient(45deg, _palette(light-blue), _palette(dark-blue));
 		border: 0;
 		border-radius: 44px;
-		color: _palette(fg-bold);
+		color: _palette(fg);
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -33,9 +34,10 @@
 		text-decoration: none;
 		text-transform: uppercase;
 		white-space: nowrap;
+		transition: all 0.45s;
 
 		&:hover {
-			background-color: _palette(button-brighter);
+			background: linear-gradient(45deg, _palette(light-blue), _palette(indigo-blue));
 		}
 
 		&:active {
